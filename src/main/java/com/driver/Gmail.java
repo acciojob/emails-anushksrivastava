@@ -12,7 +12,7 @@ public class Gmail extends Email {
     //Trash: Stores mails. Each mail has date (Date), sender (String), message (String)
     public Gmail(String emailId, int inboxCapacity) {
        // super();
-super.setEmailId(emailId);
+super(emailId);
 this.inboxCapacity=inboxCapacity;
         this.inbox = new ArrayList<>();
         this.trash = new ArrayList<>();

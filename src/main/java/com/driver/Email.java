@@ -6,6 +6,10 @@ public class Email {
     private String password;
 
     public Email(){
+        this.emailId = "";
+        this.password = "Accio@123";
+    }
+    public Email(String emailId){
         this.emailId = emailId;
         this.password = "Accio@123";
     }
